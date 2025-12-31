@@ -5,7 +5,7 @@
 ![Framework](https://img.shields.io/badge/.NET-8.0-blueviolet.svg)
 
 **Outlook PST & OST Browser | Editor** ist eine professionelle Hochleistungs-Lösung zur forensischen Analyse, Verwaltung und Bearbeitung von Microsoft Outlook Datendateien. Die Software erlaubt es, E-Mails, Anhänge und komplexe Ordnerstrukturen zu extrahieren, zu editieren und in einer AES-256 verschlüsselten Datenbank sicher zu archivieren.
-<img width="1586" height="943" alt="2025-12-31 14_53_57-Outlook PST   OST Browser_Editor _ Outlook 16 0 0 19530 _ BOREAS _ 31 12 2025" src="https://github.com/user-attachments/assets/46aa7f69-e727-418f-96f8-3512f0ce4097" />
+<img width="1587" height="944" alt="2025-12-31 14_55_28-Outlook PST   OST Browser_Editor _ Outlook 16 0 0 19530 _ BOREAS _ 31 12 2025" src="https://github.com/user-attachments/assets/e9a0278d-b31e-4851-89aa-703723a1b4ab" />
 
 ---
 
