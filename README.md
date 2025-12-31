@@ -61,6 +61,7 @@ Diese Software ist ein proprietäres Produkt von **Malte Speck**. Es handelt sic
 Die Nutzung unterliegt der in diesem Repository enthaltenen [eigenen Lizenzvereinbarung (EULA)](LICENSE.txt).
 
 **Wichtigste Einschränkungen:**
+- für die Nutzung, für kommerzielle Zwecke ist eine separate Genehmigung erfordert.
 - Keine Weiterverbreitung ohne ausdrückliche Genehmigung.
 - Kein Reverse Engineering (Rückentwicklung) oder Modifikation des Codes.
 - Alle Rechte vorbehalten.
