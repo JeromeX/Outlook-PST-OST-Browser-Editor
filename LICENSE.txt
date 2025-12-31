@@ -1,0 +1,38 @@
+📄 Endbenutzer-Lizenzvereinbarung (EULA)
+Produkt: Outlook PST & OST Browser | Editor
+
+Urheber: Malte Speck
+
+Version: 102 (Stand 2025)
+
+1. Geltungsbereich
+Diese Lizenz regelt die Nutzung der Software "Outlook PST & OST Browser | Editor" (nachfolgend „Software“ genannt). Durch die Installation oder Nutzung der Software erklären Sie sich mit den Bedingungen dieser Vereinbarung einverstanden.
+
+2. Geistiges Eigentum
+Die Software sowie alle zugehörigen Algorithmen, grafischen Oberflächen, Texte und Binärdaten sind das alleinige geistige Eigentum von Malte Speck. Die Software wird lizenziert, nicht verkauft.
+
+3. Nutzungsrechte und Einschränkungen
+Dem Lizenznehmer wird ein nicht exklusives Recht zur Nutzung der Software auf seinen Endgeräten eingeräumt. Folgende Handlungen sind ohne ausdrückliche schriftliche Genehmigung des Urhebers untersagt:
+
+Reverse Engineering: Das Dekompilieren, Disassemblieren oder der Versuch, den Quellcode der Software zu extrahieren.
+
+Modifikation: Das Verändern der Software oder das Erstellen abgeleiteter Werke.
+
+Vertrieb: Der Verkauf, die Vermietung, das Hosting oder die kommerzielle Weiterverbreitung der Software an Dritte.
+
+Branding: Das Entfernen oder Verändern von Urheberrechtshinweisen oder Markenzeichen innerhalb der Software.
+
+4. Haftungsausschluss
+Die Software wird "wie besehen" (AS IS) bereitgestellt. Der Urheber übernimmt keine Garantie für die Fehlerfreiheit oder die Eignung für einen bestimmten Zweck.
+
+Der Urheber haftet nicht für Datenverluste, die durch die Nutzung der Software, MAPI-Schnittstellenfehler oder Fehlbedienung (z.B. vergessenes Master-Passwort) entstehen.
+
+Die Nutzung erfolgt auf eigene Gefahr des Anwenders.
+
+5. Datenschutz und Verschlüsselung
+Die Software arbeitet lokal. Es findet keine Übertragung von E-Mail-Inhalten an externe Server statt. Der Anwender ist selbst für die Sicherung seines Master-Passworts verantwortlich; eine Wiederherstellung verschlüsselter Datenbanken (.db) ohne Passwort ist technisch nicht möglich.
+
+6. Schlussbestimmungen
+Sollten einzelne Bestimmungen dieser Lizenz unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Es gilt das Recht der Bundesrepublik Deutschland.
+
+Copyright © 2025 Malte Speck. Alle Rechte vorbehalten.
