@@ -1,7 +1,7 @@
 # 🛡️ Outlook PST & OST Browser | Editor
 
-![License](https://img.shields.io/badge/License-Eigene--Lizenz-red.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+![License](https://img.shields.io/badge/Lizenz-Proprietär-red.svg)
+![Platform](https://img.shields.io/badge/Plattform-Windows-lightgrey.svg)
 ![Framework](https://img.shields.io/badge/.NET-8.0-blueviolet.svg)
 
 **Outlook PST & OST Browser | Editor** ist eine professionelle Hochleistungs-Lösung zur forensischen Analyse, Verwaltung und Bearbeitung von Microsoft Outlook Datendateien. Die Software erlaubt es, E-Mails, Anhänge und komplexe Ordnerstrukturen zu extrahieren, zu editieren und in einer AES-256 verschlüsselten Datenbank sicher zu archivieren.
@@ -42,7 +42,7 @@ Im Gegensatz zu einfachen Viewern implementiert dieser Editor eine dreistufige K
 
 Die Software wird als schlüsselfertiger **Installer** bereitgestellt.
 
-1.  Laden Sie die `Outlook_Browser_Editor_Setup.exe` herunter.
+1.  Laden Sie die neueste `Outlook_Browser_Editor_Setup.exe` aus den Releases herunter.
 2.  Folgen Sie dem Setup-Assistenten.
 3.  **Passwort-Sicherheit:** Vergeben Sie beim ersten Start ein Master-Passwort. 
     > ⚠️ **Achtung:** Das Passwort wird nirgendwo gespeichert. Ohne dieses Passwort ist der Zugriff auf die verschlüsselte Datenbank unmöglich.
@@ -54,7 +54,7 @@ Microsoft bindet OST-Dateien fest an die ursprüngliche Hardware. Das Öffnen vo
 
 ---
 
-## ⚖️ Lizenz (Eigene Lizenz / Proprietär)
+## ⚖️ Lizenz
 
 Diese Software ist ein proprietäres Produkt von **Malte Speck**. Es handelt sich NICHT um Open-Source-Software.
 Die Nutzung unterliegt der in diesem Repository enthaltenen [eigenen Lizenzvereinbarung (EULA)](LICENSE.txt).
@@ -64,5 +64,7 @@ Die Nutzung unterliegt der in diesem Repository enthaltenen [eigenen Lizenzverei
 - Kein Reverse Engineering (Rückentwicklung) oder Modifikation des Codes.
 - Alle Rechte vorbehalten.
 
+---
+
 ## 📧 Kontakt
-Entwickelt von **Malte Speck**. Bei technischen Fragen kontaktieren Sie mich bitte über das GitHub-Profil.
+Entwickelt von **Malte Speck**. Bei technischen Fragen oder für Lizenzanfragen kontaktieren Sie mich bitte über dieses GitHub-Profil.
