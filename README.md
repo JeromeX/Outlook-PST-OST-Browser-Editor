@@ -56,15 +56,13 @@ Microsoft bindet OST-Dateien fest an die ursprüngliche Hardware. Das Öffnen vo
 
 ## ⚖️ Lizenz (Eigene Lizenz / Proprietär)
 
-Copyright © 2025 - **Malte Speck**. Alle Rechte vorbehalten.
+Diese Software ist ein proprietäres Produkt von **Malte Speck**. Es handelt sich NICHT um Open-Source-Software.
+Die Nutzung unterliegt der in diesem Repository enthaltenen [eigenen Lizenzvereinbarung (EULA)](LICENSE.txt).
 
-Die Nutzung dieser Software unterliegt den folgenden Bedingungen:
-* **Eigentum:** Die Software, einschließlich des Quellcodes und der grafischen Oberfläche, ist geistiges Eigentum von Malte Speck.
-* **Nutzungsrecht:** Die Lizenz erlaubt die Nutzung der Software auf Endgeräten des Lizenznehmers. 
-* **Einschränkungen:** Die Software darf ohne ausdrückliche schriftliche Genehmigung des Urhebers nicht dekompiliert, verändert, vermietet oder kommerziell weiterverbreitet werden.
-* **Haftungsausschluss:** Die Software wird "wie besehen" bereitgestellt. Der Autor übernimmt keine Haftung für Datenverluste, die durch unsachgemäße Handhabung oder MAPI-Fehler entstehen.
-
----
+**Wichtigste Einschränkungen:**
+- Keine Weiterverbreitung ohne ausdrückliche Genehmigung.
+- Kein Reverse Engineering (Rückentwicklung) oder Modifikation des Codes.
+- Alle Rechte vorbehalten.
 
 ## 📧 Kontakt
 Entwickelt von **Malte Speck**. Bei technischen Fragen kontaktieren Sie mich bitte über das GitHub-Profil.
