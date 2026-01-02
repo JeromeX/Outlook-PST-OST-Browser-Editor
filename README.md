@@ -1,72 +1,71 @@
-# 🛡️ Outlook PST & OST Browser | Editor
+# Outlook PST & OST Browser | Editor (OutlookVault 2026)
 
-![License](https://img.shields.io/badge/Lizenz-Proprietär-red.svg)
-![Platform](https://img.shields.io/badge/Plattform-Windows-lightgrey.svg)
-![Framework](https://img.shields.io/badge/.NET-8.0-blueviolet.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-0078D4?style=flat-square)
+![Framework](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square)
+![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)
+![Security](https://img.shields.io/badge/Security-AES256-green?style=flat-square)
+![Build](https://img.shields.io/badge/Build-149-orange?style=flat-square)
 
-**Outlook PST & OST Browser | Editor** ist eine professionelle Hochleistungs-Lösung zur forensischen Analyse, Verwaltung und Bearbeitung von Microsoft Outlook Datendateien. Die Software erlaubt es, E-Mails, Anhänge und komplexe Ordnerstrukturen zu extrahieren, zu editieren und in einer AES-256 verschlüsselten Datenbank sicher zu archivieren.
-
-<img width="1618" height="885" alt="2025-12-31 14_57_29-Outlook PST   OST Browser_Editor _ Outlook 16 0 0 19530 _ BOREAS _ 31 12 2025" src="https://github.com/user-attachments/assets/9d14106b-0b24-4f78-8f74-c2a9f95b08c9" />
----
-
-## 🚀 Kernfunktionen
-
-* **🔍 Deep Extraction & Browsing**
-    Vollständige Rekonstruktion und blitzschnelle Navigation durch Outlook-Ordnerhierarchien in Echtzeit.
-* **📂 Universal Import Support**
-    Nahtlose Anbindung an aktive Outlook-Profile (**Auto Import**) sowie Standalone-Support für **PST**-Archive und **OST**-Offline-Caches.
-* **✍️ Integrierter Editor**
-    Gezieltes Löschen und Verwalten von Inhalten direkt im Tresor, um Archivbestände sauber zu halten.
-* **🔐 AES-256 Verschlüsselung**
-    Militärstandard-Verschlüsselung für alle HTML-Körper und Dateianhänge. Der Schlüssel wird via PBKDF2 aus Ihrem Master-Passwort abgeleitet.
-* **💎 Smart Compression (Deep Clean)**
-    Einzigartiger Algorithmus zur physikalischen Minimierung der Datenbankgröße durch Entfernung verwaister Datenfragmente.
+**Outlook PST & OST Browser | Editor** ist eine hochmoderne WPF-Anwendung zur revisionssicheren Archivierung, Betrachtung und Extraktion von Microsoft Outlook-Daten. Das System arbeitet vollständig lokal und speichert Inhalte in einer hochverschlüsselten SQLite-Datenbank, unabhängig von einer laufenden Outlook-Installation.
+<img width="1658" height="937" alt="2026-01-02 19_05_48-Outlook PST   OST Browser _ Editor _ BOREAS _ 02 01 2026 _ Profil_ Nicht aktiv _" src="https://github.com/user-attachments/assets/aed62f05-d94d-453c-8a3d-d2fe4287e4ff" />
+<img width="1658" height="937" alt="2026-01-02 19_05_55-Outlook PST   OST Browser _  Editor _  BOREAS _ DB_ BOREAS_vault db" src="https://github.com/user-attachments/assets/6cc59aad-6fe6-4f72-9bf5-2b226c235f8b" />
 
 ---
 
-## 🛠️ Technische Umsetzung
+## 🚀 Hauptfunktionen (Features)
 
-### Architektur & Stack
-* **Framework:** .NET 8.0 (Windows Desktop)
-* **Datenbank:** SQLite mit **WAL-Mode** (Write-Ahead Logging) für maximale Datenintegrität.
-* **Security:** Implementierung von `System.Security.Cryptography.Aes` (256-Bit) für alle sensiblen Datenfelder.
+### 🎨 Modernes UI & UX Design
+* **Windows 11 Style:** Rahmenlose Fenster, moderne Dialogführung und Schatteneffekte für eine elegante Optik.
+* **Intelligente Farbkodierung:**
+    * **Betreff:** Dunkelgrün
+    * **Absender:** Dunkelrot
+    * **Datum:** Outlook-Blau
+* **Neon-Icons:** Wichtige Systemfunktionen (DB-Check, Optimierung, Backup) sind durch Neon-Grün und Neon-Magenta hervorgehoben.
+* **Live-Systemuhr:** Farbige Statusleisten-Uhr (Stunden: Schwarz | Minuten: Rot | Sekunden: Gold).
+* **Integrierter Viewer:** HTML-Rendering für E-Mails und Vorschau für Anhänge (PDF, Office, etc.).
 
-### 🧠 Speichermanagement (Vacuum Logic)
-Im Gegensatz zu einfachen Viewern implementiert dieser Editor eine dreistufige Kompressionstechnologie:
-1.  **Orphaned Data Detection:** Identifikation von Anhängen und HTML-Fragmenten ohne gültige Mail-Referenz.
-2.  **WAL Checkpoint:** Synchronisation der Schreibvorgänge zur Vermeidung von Datenverlust.
-3.  **Physical Vacuum:** Physikalische Reorganisation der Datenbankbits zur effektiven Reduzierung der Dateigröße.
+### 🔒 Sicherheit & Architektur
+* **AES-256 Verschlüsselung:** Alle Daten landen in einer passwortgeschützten `_vault.db`. Der Zugriff ist ohne Key unmöglich.
+* **Audit-Log:** Ein detailliertes Sicherheitsprotokoll (`logs.db`) speichert alle Aktionen (Import, Export, Löschungen, Login-Versuche).
+* **Domain-Lock (Anti-Commercial):** Die Software erkennt automatisch, ob der Computer Teil einer Firmen-Domäne ist und verweigert in diesem Fall den Start.
 
----
+### 📥 Import & Synchronisation
+* **Full Auto Import:** Sichert vollautomatisch das gesamte aktive Outlook-Profil.
+* **Diff Import (Smart Update):** Selektiver Import, der Datumsstempel vergleicht und nur neue oder geänderte E-Mails importiert (Inkrementelles Backup).
+* **PST Support:** Direktes Einlesen externer `.pst` Dateien.
 
-## 📦 Installation & Benutzung
-
-Die Software wird als schlüsselfertiger **Installer** bereitgestellt.
-
-1.  Laden Sie die neueste `Outlook_Browser_Editor_Setup.exe` aus den Releases herunter.
-2.  Folgen Sie dem Setup-Assistenten.
-3.  **Passwort-Sicherheit:** Vergeben Sie beim ersten Start ein Master-Passwort. 
-    > ⚠️ **Achtung:** Das Passwort wird nirgendwo gespeichert. Ohne dieses Passwort ist der Zugriff auf die verschlüsselte Datenbank unmöglich.
-
----
-
-## ⚠️ Hinweis zu OST-Dateien
-Microsoft bindet OST-Dateien fest an die ursprüngliche Hardware. Das Öffnen von OST-Dateien fremder Systeme kann den Fehler **0x80004005** verursachen. In diesem Fall nutzen Sie bitte die Funktion **Auto Import** auf dem Originalgerät.
+### 📤 Export & Management
+* **ZIP-Export:** Exportiert ganze Ordnerstrukturen inkl. Anhängen als ZIP-Archiv.
+* **EML-Export:** Speichert einzelne Nachrichten im universellen Format.
+* **Wartung:** `VACUUM`-Befehl zur Datenbank-Komprimierung und Integritätsprüfung.
 
 ---
 
-## ⚖️ Lizenz
+## 🛠️ Technische Voraussetzungen
 
-Diese Software ist ein proprietäres Produkt von **Malte Speck**. Es handelt sich NICHT um Open-Source-Software.
-Die Nutzung unterliegt der in diesem Repository enthaltenen [eigenen Lizenzvereinbarung (EULA)](LICENSE.txt).
-
-**Wichtigste Einschränkungen:**
-- für die Nutzung, für kommerzielle Zwecke ist eine separate Genehmigung erfordert.
-- Keine Weiterverbreitung ohne ausdrückliche Genehmigung.
-- Kein Reverse Engineering (Rückentwicklung) oder Modifikation des Codes.
-- Alle Rechte vorbehalten.
+* **OS:** Windows 10 oder Windows 11 (64-Bit)
+* **Runtime:** .NET Desktop Runtime 8.0
+* **Datenbank:** SQLite (Microsoft.Data.Sqlite)
+* **Abhängigkeit:** Für die Import-Funktionen muss Microsoft Outlook (Classic) installiert sein.
 
 ---
 
-## 📧 Kontakt
-Entwickelt von **Malte Speck**. Bei technischen Fragen oder für Lizenzanfragen kontaktieren Sie mich bitte über dieses GitHub-Profil.
+## ⚖️ Lizenz & Nutzungsbedingungen
+
+**Copyright © 2026 Malte Speck**
+
+Dieses Softwareprodukt ist **proprietär**. Die Nutzung ist an folgende Bedingungen geknüpft:
+
+> 1.  **Private Lizenz:** Die Software darf ausschließlich von Privatpersonen für persönliche Zwecke genutzt werden.
+> 2.  **Keine kommerzielle Nutzung:** Der Einsatz in Unternehmen, Behörden oder für gewerbliche Zwecke ist strengstens untersagt. Die Software enthält technische Schutzmaßnahmen (Domain-Check), um dies durchzusetzen.
+> 3.  **Weitergabe:** Das Kopieren, Modifizieren oder Verteilen des Quellcodes oder der Binärdateien ist ohne schriftliche Genehmigung des Urhebers nicht gestattet.
+
+---
+
+## ⚠️ Haftungsausschluss
+
+Die Nutzung der Software erfolgt auf eigene Gefahr. Der Entwickler übernimmt keine Haftung für Datenverlust, Korruption von Outlook-Profilen oder andere Schäden, die aus der Nutzung der Software entstehen könnten. Es wird empfohlen, regelmäßige Backups der `.db` Dateien durchzuführen.
+
+---
+
+*Erstellt mit ❤️ und .NET 8 © 2026 Malte Speck*
