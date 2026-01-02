@@ -8,6 +8,11 @@
 
 **Outlook PST & OST Browser | Editor** ist eine hochmoderne WPF-Anwendung zur revisionssicheren Archivierung, Betrachtung und Extraktion von Microsoft Outlook-Daten. Das System arbeitet vollständig lokal und speichert Inhalte in einer hochverschlüsselten SQLite-Datenbank, unabhängig von einer laufenden Outlook-Installation.
 
+<img width="1658" height="937" alt="2026-01-02 23_18_08-Outlook PST   OST Browser _ Editor _ BOREAS _ 02 01 2026 _ Profil_ malte speck@o" src="https://github.com/user-attachments/assets/477b023f-6510-4091-9515-7601c181c698" />
+<img width="1660" height="935" alt="2026-01-02 23_18_22-Outlook PST   OST Browser _  Editor _  BOREAS _ DB_ BOREAS_vault db" src="https://github.com/user-attachments/assets/da7c262d-bf11-45f3-991f-2bef7ed6f3fe" />
+<img width="1658" height="937" alt="2026-01-02 23_19_24-Outlook PST   OST Browser _  Editor _  BOREAS _ DB_ BOREAS_vault db" src="https://github.com/user-attachments/assets/9b956ac5-653c-4e5a-bedd-4367335dc074" />
+<img width="500" height="700" alt="2026-01-02 23_21_26-" src="https://github.com/user-attachments/assets/679023c0-0541-4793-acaa-32718b0fc99c" />
+<img width="800" height="500" alt="2026-01-02 23_21_43-" src="https://github.com/user-attachments/assets/c6ad2727-5223-4011-99f8-b22a3678d62b" />
 ---
 
 ## 🚀 Hauptfunktionen (Features)
