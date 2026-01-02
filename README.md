@@ -69,3 +69,7 @@ Die Nutzung der Software erfolgt auf eigene Gefahr. Der Entwickler übernimmt ke
 ---
 
 *Erstellt mit ❤️ und .NET 8 © 2026 Malte Speck*
+
+### Icons
+Email icon by Freepik – Flaticon  
+https://www.flaticon.com/free-icon/email_873360
