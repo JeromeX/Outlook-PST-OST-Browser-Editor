@@ -1,38 +1,52 @@
-📄 Endbenutzer-Lizenzvereinbarung (EULA)
-Produkt: Outlook PST & OST Browser | Editor
+# ENDNUTZER-LIZENZVEREINBARUNG (EULA)
 
-Urheber: Malte Speck
+**Software:** Outlook PST & OST Browser | Editor (OutlookVault 2026)  
+**Version:** Build 149 und höher  
+**Urheber:** Malte Speck  
+**Datum:** 02. Januar 2026
 
-Version: 102 (Stand 2025)
+---
 
-1. Geltungsbereich
-Diese Lizenz regelt die Nutzung der Software "Outlook PST & OST Browser | Editor" (nachfolgend „Software“ genannt). Durch die Installation oder Nutzung der Software erklären Sie sich mit den Bedingungen dieser Vereinbarung einverstanden.
+## 1. EIGENTUM UND URHEBERRECHT
 
-2. Geistiges Eigentum
-Die Software sowie alle zugehörigen Algorithmen, grafischen Oberflächen, Texte und Binärdaten sind das alleinige geistige Eigentum von Malte Speck. Die Software wird lizenziert, nicht verkauft.
+Dieses Softwareprodukt ("Software") ist Eigentum von **Malte Speck** und ist durch nationale und internationale Urheberrechtsgesetze geschützt. Die Software wird lizenziert, nicht verkauft. Alle Rechte am geistigen Eigentum verbleiben beim Urheber.
 
-3. Nutzungsrechte und Einschränkungen
-Dem Lizenznehmer wird ein nicht exklusives Recht zur Nutzung der Software auf seinen Endgeräten eingeräumt. Folgende Handlungen sind ohne ausdrückliche schriftliche Genehmigung des Urhebers untersagt:
+## 2. LIZENZGEWÄHRUNG (Private Nutzung)
 
-Reverse Engineering: Das Dekompilieren, Disassemblieren oder der Versuch, den Quellcode der Software zu extrahieren.
+Hiermit wird Ihnen eine widerrufliche, nicht-exklusive, nicht übertragbare Lizenz zur Nutzung dieser Software unter folgenden Bedingungen gewährt:
 
-Modifikation: Das Verändern der Software oder das Erstellen abgeleiteter Werke.
+* **Persönliche Nutzung:** Sie dürfen die Software ausschließlich für private, persönliche Zwecke auf Ihren privaten Computern installieren und nutzen.
+* **Archivierung:** Die Nutzung zur persönlichen Archivierung privater E-Mail-Bestände ist gestattet.
 
-Vertrieb: Der Verkauf, die Vermietung, das Hosting oder die kommerzielle Weiterverbreitung der Software an Dritte.
+## 3. NUTZUNGSBESCHRÄNKUNGEN (Keine kommerzielle Nutzung)
 
-Branding: Das Entfernen oder Verändern von Urheberrechtshinweisen oder Markenzeichen innerhalb der Software.
+Jegliche Nutzung, die über den privaten Rahmen hinausgeht, ist strengstens untersagt.
 
-4. Haftungsausschluss
-Die Software wird "wie besehen" (AS IS) bereitgestellt. Der Urheber übernimmt keine Garantie für die Fehlerfreiheit oder die Eignung für einen bestimmten Zweck.
+> **⛔ KOMMERZIELLES VERBOT:**
+> Der Einsatz dieser Software in einem gewerblichen, geschäftlichen, behördlichen oder schulischen Umfeld ist **ausdrücklich verboten**. Dies schließt die Nutzung durch Freiberufler, Unternehmen und Non-Profit-Organisationen mit ein.
 
-Der Urheber haftet nicht für Datenverluste, die durch die Nutzung der Software, MAPI-Schnittstellenfehler oder Fehlbedienung (z.B. vergessenes Master-Passwort) entstehen.
+> **💻 TECHNISCHE SPERRE (DOMAIN CHECK):**
+> Die Software enthält technische Schutzmaßnahmen, die beim Start prüfen, ob der Computer Mitglied einer Windows-Domäne (Active Directory) ist. Wird eine Domäne erkannt, verweigert die Software den Start, um eine unautorisierte kommerzielle Nutzung zu unterbinden.
 
-Die Nutzung erfolgt auf eigene Gefahr des Anwenders.
+Es ist Ihnen darüber hinaus untersagt:
+1.  Die Software zu verändern, zurückzuentwickeln (Reverse Engineering), zu dekompilieren oder zu disassemblieren.
+2.  Die Software oder Teile davon zu vermieten, zu verleasen oder zu verkaufen.
+3.  Den Quellcode ohne schriftliche Genehmigung des Urhebers zu verbreiten oder in anderen Projekten zu verwenden.
 
-5. Datenschutz und Verschlüsselung
-Die Software arbeitet lokal. Es findet keine Übertragung von E-Mail-Inhalten an externe Server statt. Der Anwender ist selbst für die Sicherung seines Master-Passworts verantwortlich; eine Wiederherstellung verschlüsselter Datenbanken (.db) ohne Passwort ist technisch nicht möglich.
+## 4. HAFTUNGSAUSSCHLUSS (Disclaimer)
 
-6. Schlussbestimmungen
-Sollten einzelne Bestimmungen dieser Lizenz unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Es gilt das Recht der Bundesrepublik Deutschland.
+**DIE SOFTWARE WIRD "WIE BESEHEN" (AS IS) ZUR VERFÜGUNG GESTELLT.**
 
-Copyright © 2025 Malte Speck. Alle Rechte vorbehalten.
+Der Urheber (Malte Speck) übernimmt keinerlei Gewährleistung, weder ausdrücklich noch stillschweigend, für die Funktionsfähigkeit, Fehlerfreiheit oder Eignung für einen bestimmten Zweck.
+
+* Die Nutzung erfolgt auf eigenes Risiko.
+* Der Urheber haftet nicht für Datenverluste, Beschädigungen an Outlook-Profilen, Systemausfälle oder andere Schäden, die direkt oder indirekt durch die Nutzung der Software entstehen.
+* Es liegt in der Verantwortung des Nutzers, regelmäßige Backups seiner Daten (insbesondere der `.db` Datenbanken und originalen PST-Dateien) zu erstellen.
+
+## 5. BEENDIGUNG
+
+Diese Lizenzvereinbarung ist gültig, bis sie beendet wird. Ihre Rechte aus dieser Lizenz enden automatisch und ohne Benachrichtigung durch den Urheber, wenn Sie gegen eine der Bedingungen dieser Vereinbarung verstoßen.
+
+---
+
+**Copyright © 2026 Malte Speck. Alle Rechte vorbehalten.**
